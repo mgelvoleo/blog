@@ -1,44 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ansible on ITLEARNTV</title>
-    <link>/tags/ansible/</link>
-    <description>Recent content in ansible on ITLEARNTV</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Getting Started with Ansible</title>
-      <link>/ansible/getting-started/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/ansible/getting-started/</guid>
-      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ansible on ITLEARNTV</title><link>https://mgelvoleo.github.io/blog/tags/ansible/</link><description>Recent content in ansible on ITLEARNTV</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mgelvoleo.github.io/blog/tags/ansible/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started with Ansible</title><link>https://mgelvoleo.github.io/blog/ansible/getting-started/</link><pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate><guid>https://mgelvoleo.github.io/blog/ansible/getting-started/</guid><description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
 What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
-Installation To install Ansible, follow these steps:</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Ansible</title>
-      <link>/ansible/managing-inventory/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/ansible/managing-inventory/</guid>
-      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+Installation To install Ansible, follow these steps:</description></item><item><title>Getting Started with Ansible</title><link>https://mgelvoleo.github.io/blog/ansible/managing-inventory/</link><pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate><guid>https://mgelvoleo.github.io/blog/ansible/managing-inventory/</guid><description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
 What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
-Installation To install Ansible, follow these steps:</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Ansible</title>
-      <link>/ansible/playbooks-guide/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/ansible/playbooks-guide/</guid>
-      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+Installation To install Ansible, follow these steps:</description></item><item><title>Getting Started with Ansible</title><link>https://mgelvoleo.github.io/blog/ansible/playbooks-guide/</link><pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate><guid>https://mgelvoleo.github.io/blog/ansible/playbooks-guide/</guid><description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
 What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
-Installation To install Ansible, follow these steps:</description>
-    </item>
-    
-  </channel>
-</rss>
+Installation To install Ansible, follow these steps:</description></item></channel></rss>
