@@ -1,8 +1,8 @@
-baseURL = "https://mgelvoleo.github.io/blog"
+baseURL = "https://mgelvoleo.github.io/blog/"
 languageCode = 'en-us'
 title = 'ITLEARNTV'
 theme = "mainroad"
-publishDir = "docs"
+publishDir = "public"
 
 relativeURLs = true
 
