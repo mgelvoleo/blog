@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on ITLEARNTV</title>
+    <link>/</link>
+    <description>Recent content in Home on ITLEARNTV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Ansible</title>
+      <link>/ansible/getting-started/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ansible/getting-started/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
+Installation To install Ansible, follow these steps:</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Ansible</title>
+      <link>/ansible/managing-inventory/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ansible/managing-inventory/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
+Installation To install Ansible, follow these steps:</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Ansible</title>
+      <link>/ansible/playbooks-guide/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ansible/playbooks-guide/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
+Installation To install Ansible, follow these steps:</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Linux</title>
+      <link>/linux/post1/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/linux/post1/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook </description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Linux</title>
+      <link>/linux/post2/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/linux/post2/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Linux</title>
+      <link>/linux/post3/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/linux/post3/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook
+![My Image](/images/2 1.png)</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Terraform</title>
+      <link>/terraform/how-to-install-terraform/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/terraform/how-to-install-terraform/</guid>
+      <description>How to install terraform TEST Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Terraform</title>
+      <link>/terraform/post1/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/terraform/post1/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
+Installation To install Ansible, follow these steps:</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Terraform</title>
+      <link>/terraform/post2/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/terraform/post2/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
+Installation To install Ansible, follow these steps:</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Terraform</title>
+      <link>/terraform/post3/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/terraform/post3/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
+Installation To install Ansible, follow these steps:</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>About Us Welcome to our About Us page! Here you can learn more about our team, our mission, and what we stand for.</description>
+    </item>
+    
+  </channel>
+</rss>

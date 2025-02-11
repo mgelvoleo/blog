@@ -1,0 +1,65 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'ITLEARNTV'
+theme = "mainroad"
+publishDir = "docs"
+
+
+[Params.style.vars]
+  highlightColor = "#008e45"
+
+[Params]
+  post_meta = ["author", "date", "categories", "translations"]
+
+
+[Params.sidebar]
+  # Enable widgets in given order
+  home = "right"
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+    
+  [[menu.main]]
+    name = "Linux"
+    url = "/linux"
+    weight = 2
+  [[menu.main]]
+    name = "Ansible"
+    url = "/ansible"
+    weight = 3
+
+  [[menu.main]]
+    name = "Terraform"
+    url = "/terraform"
+    weight = 4
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 5
+  
+
+[Params.widgets]
+  recent_num = 5
+  tags_counter = true
+
+[Params.widgets.social]
+  cached = false # activate cache if true
+  # Enable parts of social widget
+  twitter = "username"
+
+  linkedin = "username"
+  github = "username"
+
+[[Params.widgets.social.custom]]
+  title = "Youtube"
+  url = "https://youtube.com/user/username"
+  # icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+  rel = "noopener noreferrer" # Set to false to remove the rel attribute"
+
+  
