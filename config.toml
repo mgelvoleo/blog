@@ -4,6 +4,7 @@ title = 'ITLEARNTV'
 theme = "mainroad"
 publishDir = "docs"
 
+relativeURLs = true
 
 [Params.style.vars]
   highlightColor = "#008e45"
