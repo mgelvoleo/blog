@@ -17,26 +17,26 @@ canonifyURLs = true  # Ensures absolute URLs
 [menu]
   [[menu.main]]
     name = "Home"
-    url = "/blog/"
+    url = "/"
     weight = 1
     
   [[menu.main]]
     name = "Linux"
-    url = "/blog/linux"
+    url = "/linux"
     weight = 2
   [[menu.main]]
     name = "Ansible"
-    url = "/blog/ansible"
+    url = "/ansible"
     weight = 3
 
   [[menu.main]]
     name = "Terraform"
-    url = "/blog/terraform"
+    url = "/terraform"
     weight = 4
 
   [[menu.main]]
     name = "About"
-    url = "/blog/about"
+    url = "/about"
     weight = 5
 
 [Params.widgets]
