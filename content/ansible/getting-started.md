@@ -30,12 +30,12 @@ To install Ansible, follow these steps:
 
    ```bash
    ansible --version
-   ``fffff`
+   ```
 
 ## Basic Concepts
 
 ### Inventory
-ifjdskfjds;jflsdkjfkl;dsjfldsjflds;
+
 Ansible uses an inventory file to define the hosts it manages. The default inventory file is located at `/etc/ansible/hosts`. You can define your own inventory file in your project directory.
 
 ### Playbooks
