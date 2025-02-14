@@ -56,3 +56,5 @@ canonifyURLs = true  # Ensures absolute URLs
 
 
   
+[params]
+  copyright = "© 2025 Your Custom Text"
