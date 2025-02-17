@@ -1,4 +1,5 @@
-baseURL = "https://mgelvoleo.github.io/blog/"
+# baseURL = "https://mgelvoleo.github.io/blog/"
+baseURL = "/"
 languageCode = 'en-us'
 title = 'ITLEARNTV'
 theme = "mainroad"
@@ -9,6 +10,12 @@ canonifyURLs = true  # Ensures absolute URLs
 
 [Params]
   post_meta = ["author", "date", "categories", "translations"]
+  copyright = "© 2025 Your Custom Text"
+
+[Params.logo]
+  image = "img/placeholder.png"
+  title = "Mainroad"
+  subtitle = "Just another site"
 
 [Params.sidebar]
   home = "right"
@@ -56,5 +63,4 @@ canonifyURLs = true  # Ensures absolute URLs
 
 
   
-[params]
-  copyright = "© 2025 Your Custom Text"
+
