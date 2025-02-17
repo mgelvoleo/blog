@@ -13,7 +13,7 @@ canonifyURLs = true  # Ensures absolute URLs
   copyright = "© 2025 Your Custom Text"
 
 [Params.logo]
-  image = "img/placeholder.png"
+  image = "img/logoITLearnTV.png"
   title = "Mainroad"
   subtitle = "Just another site"
 
