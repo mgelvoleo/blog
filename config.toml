@@ -14,8 +14,8 @@ canonifyURLs = true  # Ensures absolute URLs
 
 [Params.logo]
   image = "img/logoITLearnTV.png"
-  title = "Mainroad"
-  subtitle = "Just another site"
+  title = false
+  subtitle = false
 
 [Params.sidebar]
   home = "right"
