@@ -1,5 +1,5 @@
-baseURL = "https://mgelvoleo.github.io/blog/"
-# baseURL = "/"
+# baseURL = "https://mgelvoleo.github.io/blog/"
+baseURL = "/"
 languageCode = 'en-us'
 title = 'ITLEARNTV'
 theme = "mainroad"

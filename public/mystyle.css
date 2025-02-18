@@ -2,6 +2,10 @@
     background: #018e45 !important;
 }
 
+main h2.list__title.post__title a:hover,aside.sidebar a:hover {
+    color: green;
+}
+
 
 {{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#018e45") -}}
 
