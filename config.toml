@@ -10,7 +10,7 @@ canonifyURLs = true  # Ensures absolute URLs
 
 [Params]
   post_meta = ["author", "date", "categories", "translations"]
-  copyright = "© 2025 Your Custom Text"
+  copyright = "©ITLEARNTV"
 
 [Params.logo]
   image = "img/logoITLearnTV.png"
