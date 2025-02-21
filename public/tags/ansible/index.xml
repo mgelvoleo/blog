@@ -9,6 +9,17 @@
     <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mgelvoleo.github.io/blog/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started with Ansible</title>
+      <link>https://mgelvoleo.github.io/blog/ansible/ansible-101-getting-started/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mgelvoleo.github.io/blog/ansible/ansible-101-getting-started/</guid>
+      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
+What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
+Overview:</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Ansible</title>
       <link>https://mgelvoleo.github.io/blog/ansible/getting-started/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       
