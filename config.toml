@@ -61,6 +61,7 @@ canonifyURLs = true  # Ensures absolute URLs
   url = "https://youtube.com/user/username"
   rel = "noopener noreferrer"
 
-
+[markup.goldmark.renderer]
+  unsafe = true
   
 
