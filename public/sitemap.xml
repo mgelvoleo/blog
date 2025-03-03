@@ -29,10 +29,10 @@
     <loc>https://mgelvoleo.github.io/blog/ansible/ansible-101-getting-started/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mgelvoleo.github.io/blog/ansible/getting-started/</loc>
+    <loc>https://mgelvoleo.github.io/blog/ansible/ansible-101-handler/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mgelvoleo.github.io/blog/ansible/managing-inventory/</loc>
+    <loc>https://mgelvoleo.github.io/blog/ansible/ansible-101-variables/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mgelvoleo.github.io/blog/ansible/playbooks-guide/</loc>
