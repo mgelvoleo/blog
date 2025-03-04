@@ -47,5 +47,14 @@ What is Ansible? Ansible is an open-source automation tool that allows you to au
 Installation To install Ansible, follow these steps:</description>
     </item>
     
+    <item>
+      <title>Getting Started with Ansible 2</title>
+      <link>https://mgelvoleo.github.io/blog/ansible/ansible-101-getting-started-2/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mgelvoleo.github.io/blog/ansible/ansible-101-getting-started-2/</guid>
+      <description>TEST 2 </description>
+    </item>
+    
   </channel>
 </rss>
