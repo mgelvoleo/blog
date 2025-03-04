@@ -1,11 +1,15 @@
 ---
-title: "Getting Started with Ansible"
-date: 2023-10-01
-categories: ["Ansible"]
-tags: ["automation", "ansible", "devops"]
+title: Getting Started with Ansible
+date: 2025-03-05
+categories:
+  - Ansible
+tags:
+  - automation
+  - ansible
+  - devops
 ---
 
-# Getting Started with Ansible
+
 
 Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
 
