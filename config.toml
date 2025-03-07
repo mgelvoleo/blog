@@ -63,5 +63,9 @@ canonifyURLs = true  # Ensures absolute URLs
 
 [markup.goldmark.renderer]
   unsafe = true
-  
+
+
+[thumbnail]  
+  src = "img/placeholder.png"
+  visibility = ["list", "post"]
 
