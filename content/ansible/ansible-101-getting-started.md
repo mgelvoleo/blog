@@ -20,6 +20,10 @@ Ansible is an open-source automation tool that allows you to automate tasks such
 **Overview:**  
 This lesson is your starting point for learning Ansible. We’ll guide you through setting up your environment, including the control node and managed nodes. You’ll learn how to install Ansible, configure SSH for passwordless authentication, and create an inventory file to manage your nodes.
 
+
+
+![My Image](/images/images 1.jpg)
+
 ### **Ansible 101 - Node Setup for Running Playbooks (Lesson 1)**
 
 **Overview:**  
