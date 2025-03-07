@@ -22,7 +22,7 @@ This lesson is your starting point for learning Ansible. We’ll guide you throu
 
 
 
-
+![My Image](/images/images.jpg)
 
 ### **Ansible 101 - Node Setup for Running Playbooks (Lesson 1)**
 
