@@ -16,24 +16,5 @@
       <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook </description>
     </item>
     
-    <item>
-      <title>Getting Started with Linux</title>
-      <link>https://mgelvoleo.github.io/blog/linux/post2/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mgelvoleo.github.io/blog/linux/post2/</guid>
-      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Linux</title>
-      <link>https://mgelvoleo.github.io/blog/linux/post3/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mgelvoleo.github.io/blog/linux/post3/</guid>
-      <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook
-![My Image](/images/2 1.png)</description>
-    </item>
-    
   </channel>
 </rss>
