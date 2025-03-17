@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>How to variables work on ansible - ITLEARNTV</title>
+	<title>Ansible 101: Understanding Variables - Strings, Booleans, Lists, and Dictionaries - ITLEARNTV</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,7 +83,7 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">How to variables work on ansible</h1>
+			<h1 class="post__title">Ansible 101: Understanding Variables - Strings, Booleans, Lists, and Dictionaries</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2025-03-07T00:00:00Z">March 07, 2025</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="https://mgelvoleo.github.io/blog/categories/ansible/" rel="category">Ansible</a>
@@ -91,32 +91,167 @@
 </div></div>
 		</header>
 		<div class="content post__content clearfix">
-			<p>Handlers are a unique feature in Ansible that allow you to trigger tasks only when notified by other tasks. This lesson will teach you how to use handlers to manage services, reload configurations, or perform other actions only when necessary.</p>
-<p><strong>What You’ll Learn:</strong></p>
+			<p>Variables are one of the most powerful features in Ansible. They allow you to make your playbooks dynamic, reusable, and adaptable to different environments. In this lesson, we’ll explore the different types of variables in Ansible, including <strong>strings</strong>, <strong>booleans</strong>, <strong>lists</strong>, and <strong>dictionaries</strong>, and how to use them effectively in your playbooks.</p>
+<h2 id="i-string-variables"><strong>I. String Variables</strong></h2>
+<h3 id="what-is-a-string-variable"><strong>What is a String Variable?</strong></h3>
+<p>A string variable is a sequence of characters, such as text or numbers, enclosed in quotes. Strings are the most common type of variable used in Ansible.</p>
+<h3 id="how-to-define-and-use-string-variables"><strong>How to Define and Use String Variables</strong></h3>
+<p>You can define string variables in your playbooks, inventory files, or separate variable files. Here’s an example:</p>
+<pre tabindex="0"><code></code></pre><pre tabindex="0"><code>name: Example of a string variable
+  hosts: localhost
+  vars:
+    app_name: &quot;MyWebApp&quot;
+    app_version: &quot;1.0.0&quot;
+  tasks:
+    - name: Print the app name and version
+      debug:
+        msg: &quot;The app {{ app_name }} is running version {{ app_version }}.&quot;
+</code></pre><h3 id="use-cases-for-string-variables"><strong>Use Cases for String Variables</strong></h3>
 <ul>
 <li>
-<p>What handlers are and why they are useful in playbooks.</p>
+<p>Setting application names, versions, or configurations.</p>
 </li>
 <li>
-<p>How to define handlers in your playbooks.</p>
-</li>
-<li>
-<p>Using the <code>notify</code> directive to trigger handlers.</p>
-</li>
-<li>
-<p>Practical examples, such as restarting a service after a configuration change.</p>
+<p>Defining file paths or URLs dynamically.</p>
 </li>
 </ul>
-<p><strong>Use Cases:</strong></p>
+<hr>
+<h2 id="ii-boolean-variables"><strong>II. Boolean Variables</strong></h2>
+<h3 id="what-is-a-boolean-variable"><strong>What is a Boolean Variable?</strong></h3>
+<p>A boolean variable represents a true or false value. In Ansible, booleans are often used to control the flow of playbooks using conditionals.</p>
+<h3 id="how-to-define-and-use-boolean-variables"><strong>How to Define and Use Boolean Variables</strong></h3>
+<p>Boolean variables can be defined as <code>true</code> or <code>false</code> (without quotes). Here’s an example:</p>
+<pre tabindex="0"><code>
+name: Example of a boolean variable
+  hosts: localhost
+  vars:
+    enable_feature: true
+  tasks:
+    - name: Check if the feature is enabled
+      debug:
+        msg: &quot;The feature is enabled.&quot;
+      when: enable_feature
+</code></pre><h3 id="use-cases-for-boolean-variables"><strong>Use Cases for Boolean Variables</strong></h3>
 <ul>
 <li>
-<p>Restarting Apache or Nginx after updating a configuration file.</p>
+<p>Enabling or disabling features in your playbooks.</p>
 </li>
 <li>
-<p>Reloading a database service after a schema change</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PmeBaKq3kGs?si=iWKBQOglqj8jbAv7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>Controlling whether certain tasks should run.</p>
 </li>
 </ul>
+<hr>
+<h2 id="iii-list-variables"><strong>III. List Variables</strong></h2>
+<h3 id="what-is-a-list-variable"><strong>What is a List Variable?</strong></h3>
+<p>A list variable is an ordered collection of items. Lists are useful when you need to store multiple values, such as a list of packages, users, or IP addresses.</p>
+<h3 id="how-to-define-and-use-list-variables"><strong>How to Define and Use List Variables</strong></h3>
+<p>Lists are defined using square brackets <code>[]</code>. Here’s an example:</p>
+<pre tabindex="0"><code>
+name: Example of a list variable
+  hosts: localhost
+  vars:
+    packages:
+      - nginx
+      - mysql
+      - php
+  tasks:
+    - name: Install packages
+      apt:
+        name: &quot;{{ item }}&quot;
+        state: present
+      loop: &quot;{{ packages }}&quot;
+</code></pre><h3 id="use-cases-for-list-variables"><strong>Use Cases for List Variables</strong></h3>
+<ul>
+<li>
+<p>Installing multiple packages or software.</p>
+</li>
+<li>
+<p>Managing a list of users or groups.</p>
+</li>
+<li>
+<p>Iterating over a collection of items in tasks.</p>
+</li>
+</ul>
+<hr>
+<h2 id="iv-dictionary-variables"><strong>IV. Dictionary Variables</strong></h2>
+<h3 id="what-is-a-dictionary-variable"><strong>What is a Dictionary Variable?</strong></h3>
+<p>A dictionary variable is a collection of key-value pairs. Dictionaries are useful for storing structured data, such as configuration settings or user details.</p>
+<h3 id="how-to-define-and-use-dictionary-variables"><strong>How to Define and Use Dictionary Variables</strong></h3>
+<p>Dictionaries are defined using curly braces <code>{}</code> and key-value pairs. Here’s an example:</p>
+<pre tabindex="0"><code>name: Example of a dictionary variable
+  hosts: localhost
+  vars:
+    user_details:
+      name: &quot;john_doe&quot;
+      uid: 1001
+      shell: &quot;/bin/bash&quot;
+  tasks:
+    - name: Create a user
+      user:
+        name: &quot;{{ user_details.name }}&quot;
+        uid: &quot;{{ user_details.uid }}&quot;
+        shell: &quot;{{ user_details.shell }}&quot;
+</code></pre><h3 id="use-cases-for-dictionary-variables"><strong>Use Cases for Dictionary Variables</strong></h3>
+<ul>
+<li>
+<p>Storing and managing configuration settings.</p>
+</li>
+<li>
+<p>Defining user or system properties.</p>
+</li>
+<li>
+<p>Organizing complex data structures.</p>
+</li>
+</ul>
+<hr>
+<h2 id="practical-example-combining-all-variable-types"><strong>Practical Example: Combining All Variable Types</strong></h2>
+<p>Let’s combine all the variable types into a single playbook to demonstrate their power and flexibility:</p>
+<pre tabindex="0"><code>
+name: Combined example of variables
+  hosts: localhost
+  vars:
+    app_name: &quot;MyApp&quot;  # String
+    enable_logging: true  # Boolean
+    dependencies:  # List
+      - nginx
+      - mysql
+      - php
+    config:  # Dictionary
+      port: 8080
+      log_level: &quot;debug&quot;
+  tasks:
+    - name: Print app details
+      debug:
+        msg: |
+          App Name: {{ app_name }}
+          Logging Enabled: {{ enable_logging }}
+          Dependencies: {{ dependencies }}
+          Config: {{ config }}
+
+    - name: Install dependencies
+      apt:
+        name: &quot;{{ item }}&quot;
+        state: present
+      loop: &quot;{{ dependencies }}&quot;
+      when: enable_logging
+</code></pre><hr>
+<h2 id="key-takeaways"><strong>Key Takeaways</strong></h2>
+<ol>
+<li>
+<p><strong>String Variables</strong>: Used for text or single values.</p>
+</li>
+<li>
+<p><strong>Boolean Variables</strong>: Used for true/false conditions.</p>
+</li>
+<li>
+<p><strong>List Variables</strong>: Used for collections of items.</p>
+</li>
+<li>
+<p><strong>Dictionary Variables</strong>: Used for structured key-value pairs.</p>
+</li>
+</ol>
+<p>By mastering these variable types, you’ll be able to write more dynamic, reusable, and efficient Ansible playbooks.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xMb7EkA6fh0?si=dUIgUOvZ9m3b80yV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 		</div>
 		<footer class="post__footer">
