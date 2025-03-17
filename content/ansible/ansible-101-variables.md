@@ -21,8 +21,6 @@ A string variable is a sequence of characters, such as text or numbers, enclosed
 
 You can define string variables in your playbooks, inventory files, or separate variable files. Here’s an example:
 ```
-```
-```
 name: Example of a string variable
   hosts: localhost
   vars:
