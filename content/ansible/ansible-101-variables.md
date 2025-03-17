@@ -1,5 +1,5 @@
 ---
-title: Ansible Handler
+title: How to variables work on ansible
 date: 2025-03-07
 categories:
   - Ansible
