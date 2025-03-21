@@ -7,5 +7,5 @@ tags: ["linux", "server", "file-system"]
 
 # Getting Started with Linux
 
-Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook
+Usermod topic
 ![My Image](/images/2.png)
