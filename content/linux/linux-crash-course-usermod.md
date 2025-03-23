@@ -1,8 +1,12 @@
 ---
-title: "Getting Started with Linux"
+title: Linux - Usermod
 date: 2023-10-01
-categories: ["Linux"]
-tags: ["linux", "server", "file-system"]
+categories:
+  - Linux
+tags:
+  - linux
+  - server
+  - file-system
 ---
 
 

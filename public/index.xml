@@ -44,18 +44,6 @@ This lesson is your starting point for learning Ansible.</description>
     
     <item>
       <title>Getting Started with Linux</title>
-      <link>https://mgelvoleo.github.io/blog/linux/linux-crash-course-usermod/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mgelvoleo.github.io/blog/linux/linux-crash-course-usermod/</guid>
-      <description>Introduction:
-In the world of Linux system administration, managing user accounts is a fundamental task. Whether you&amp;rsquo;re adding new users, modifying existing accounts, or configuring user permissions, the usermod command is an essential tool in your arsenal. In this blog post, we&amp;rsquo;ll dive deep into the usermod command, exploring its various options, use cases, and best practices to help you efficiently manage user accounts on your Linux system.
-Outline:
-  What is Usermod?</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Linux</title>
       <link>https://mgelvoleo.github.io/blog/linux/post1-1/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       
@@ -79,6 +67,18 @@ Outline:
       
       <guid>https://mgelvoleo.github.io/blog/terraform/post1/</guid>
       <description>G </description>
+    </item>
+    
+    <item>
+      <title>Linux - Usermod</title>
+      <link>https://mgelvoleo.github.io/blog/linux/linux-crash-course-usermod/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mgelvoleo.github.io/blog/linux/linux-crash-course-usermod/</guid>
+      <description>Introduction:
+In the world of Linux system administration, managing user accounts is a fundamental task. Whether you&amp;rsquo;re adding new users, modifying existing accounts, or configuring user permissions, the usermod command is an essential tool in your arsenal. In this blog post, we&amp;rsquo;ll dive deep into the usermod command, exploring its various options, use cases, and best practices to help you efficiently manage user accounts on your Linux system.
+Outline:
+  What is Usermod?</description>
     </item>
     
     <item>
