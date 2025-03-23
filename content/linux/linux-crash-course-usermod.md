@@ -8,4 +8,4 @@ tags: ["linux", "server", "file-system"]
 # Getting Started with Linux
 
 Usermod topic
-![My Image](/images/2.png)
+
