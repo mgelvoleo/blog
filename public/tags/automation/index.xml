@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mgelvoleo.github.io/blog/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ansible 101: Ansible Environment Variables Explained</title>
+      <link>https://mgelvoleo.github.io/blog/ansible/ansible-101-env-variables/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mgelvoleo.github.io/blog/ansible/ansible-101-env-variables/</guid>
+      <description>What Are Environment Variables in Ansible? Environment variables in Ansible allow you to customize and control the behavior of Ansible execution, such as setting paths, credentials, debugging, and proxy configurations.
+Types of Environment Variables   Ansible-Specific Variables: Prefixed with ANSIBLE_ (e.g., ANSIBLE_CONFIG, ANSIBLE_STDOUT_CALLBACK).
+  User-Defined Variables: Custom variables used in playbooks, roles, or inventory.
+  System Environment Variables: Used for proxy, locale, or path configuration
+  Common Ansible Environment Variables          Variable Purpose   ANSIBLE_CONFIG Define a custom Ansible config file location.</description>
+    </item>
+    
+    <item>
       <title>Ansible 101: Understanding Variables - Strings, Booleans, Lists, and Dictionaries</title>
       <link>https://mgelvoleo.github.io/blog/ansible/ansible-101-variables/</link>
       <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>

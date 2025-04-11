@@ -6,7 +6,19 @@
     <description>Recent content in Linux on ITLEARNTV</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mgelvoleo.github.io/blog/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mgelvoleo.github.io/blog/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux - Usermod</title>
+      <link>https://mgelvoleo.github.io/blog/linux/linux-crash-course-usermod/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mgelvoleo.github.io/blog/linux/linux-crash-course-usermod/</guid>
+      <description>Introduction:
+In the world of Linux system administration, managing user accounts is a fundamental task. Whether you&amp;rsquo;re adding new users, modifying existing accounts, or configuring user permissions, the usermod command is an essential tool in your arsenal. In this blog post, we&amp;rsquo;ll dive deep into the usermod command, exploring its various options, use cases, and best practices to help you efficiently manage user accounts on your Linux system.
+Outline:
+  What is Usermod?</description>
+    </item>
+    
     <item>
       <title>Getting Started with Linux</title>
       <link>https://mgelvoleo.github.io/blog/linux/post1-1/</link>
@@ -23,18 +35,6 @@
       
       <guid>https://mgelvoleo.github.io/blog/linux/post1/</guid>
       <description>Getting Started with Ansible Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook </description>
-    </item>
-    
-    <item>
-      <title>Linux - Usermod</title>
-      <link>https://mgelvoleo.github.io/blog/linux/linux-crash-course-usermod/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://mgelvoleo.github.io/blog/linux/linux-crash-course-usermod/</guid>
-      <description>Introduction:
-In the world of Linux system administration, managing user accounts is a fundamental task. Whether you&amp;rsquo;re adding new users, modifying existing accounts, or configuring user permissions, the usermod command is an essential tool in your arsenal. In this blog post, we&amp;rsquo;ll dive deep into the usermod command, exploring its various options, use cases, and best practices to help you efficiently manage user accounts on your Linux system.
-Outline:
-  What is Usermod?</description>
     </item>
     
   </channel>

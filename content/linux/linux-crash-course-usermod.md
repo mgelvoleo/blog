@@ -1,6 +1,6 @@
 ---
 title: Linux - Usermod
-date: 2023-10-01
+date: 2024-03-24
 categories:
   - Linux
 tags:
