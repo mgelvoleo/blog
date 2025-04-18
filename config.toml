@@ -58,7 +58,7 @@ canonifyURLs = true  # Ensures absolute URLs
 
 [[Params.widgets.social.custom]]
   title = "Youtube"
-  url = "https://youtube.com/user/username"
+  url = "http://www.youtube.com/@itlearntv"
   rel = "noopener noreferrer"
 
 [markup.goldmark.renderer]
