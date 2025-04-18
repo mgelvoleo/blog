@@ -53,8 +53,8 @@ canonifyURLs = true  # Ensures absolute URLs
 [Params.widgets.social]
   cached = false
   twitter = "username"
-  linkedin = "username"
-  github = "username"
+  linkedin = "markgelvoleo"
+  github = "mgelvoleo"
 
 [[Params.widgets.social.custom]]
   title = "Youtube"
