@@ -117,12 +117,14 @@ Outline:
     </item>
     
     <item>
-      <title>About</title>
+      <title>About Us</title>
       <link>https://mgelvoleo.github.io/blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mgelvoleo.github.io/blog/about/</guid>
-      <description>About Us Welcome to our About Us page! Here you can learn more about our team, our mission, and what we stand for.</description>
+      <description>Technology is always moving — and so am I.
+I’m Mac, a lifelong learner and cloud technology enthusiast.
+I created this blog to document my journey through the exciting worlds of DevOps, cloud innovation, and automation. I hope my experiences inspire you to keep exploring, building, and evolving too.</description>
     </item>
     
   </channel>
