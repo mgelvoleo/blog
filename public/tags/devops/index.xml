@@ -49,7 +49,7 @@ Types of Environment Variables   Ansible-Specific Variables: Prefixed with ANSIB
       
       <guid>https://mgelvoleo.github.io/blog/ansible/ansible-101-variables/</guid>
       <description>Variables are one of the most powerful features in Ansible. They allow you to make your playbooks dynamic, reusable, and adaptable to different environments. In this lesson, we’ll explore the different types of variables in Ansible, including strings, booleans, lists, and dictionaries, and how to use them effectively in your playbooks.
-I. String Variables tEST What is a String Variable? A string variable is a sequence of characters, such as text or numbers, enclosed in quotes.</description>
+I. String Variables testttttt What is a String Variable? A string variable is a sequence of characters, such as text or numbers, enclosed in quotes.</description>
     </item>
     
     <item>
