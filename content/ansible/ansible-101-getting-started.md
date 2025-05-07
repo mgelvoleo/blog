@@ -26,7 +26,9 @@ This lesson is your starting point for learning Ansible. We’ll guide you throu
 
 ![My Image](/images/images.jpg)
 
-### **Ansible 101 - Node Setup for Running Playbooks (Lesson 1)**
+
+
+### **Ansible 101![My Image](/images/logoITLearnTV 1.png) - Node Setup for Running Playbooks (Lesson 1)**
 
 **Overview:**  
 This lesson is your starting point for learning Ansible. We’ll guide you through setting up your environment, including the control node and managed nodes. You’ll learn how to install Ansible, configure SSH for passwordless authentication, and create an inventory file to manage your nodes.
