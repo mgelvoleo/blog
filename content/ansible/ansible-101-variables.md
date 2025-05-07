@@ -11,7 +11,7 @@ tags:
 
 Variables are one of the most powerful features in Ansible. They allow you to make your playbooks dynamic, reusable, and adaptable to different environments. In this lesson, we’ll explore the different types of variables in Ansible, including **strings**, **booleans**, **lists**, and **dictionaries**, and how to use them effectively in your playbooks.
 
-## **I. String Variables testttttt**
+## **I. String Variables**
 
 ### **What is a String Variable?**
 

@@ -49,7 +49,7 @@ Types of Environment Variables   Ansible-Specific Variables: Prefixed with ANSIB
       
       <guid>https://mgelvoleo.github.io/blog/ansible/ansible-101-variables/</guid>
       <description>Variables are one of the most powerful features in Ansible. They allow you to make your playbooks dynamic, reusable, and adaptable to different environments. In this lesson, we’ll explore the different types of variables in Ansible, including strings, booleans, lists, and dictionaries, and how to use them effectively in your playbooks.
-I. String Variables testttttt What is a String Variable? A string variable is a sequence of characters, such as text or numbers, enclosed in quotes.</description>
+I. String Variables What is a String Variable? A string variable is a sequence of characters, such as text or numbers, enclosed in quotes.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@ What You’ll Learn:
       
       <guid>https://mgelvoleo.github.io/blog/ansible/ansible-101-getting-started/</guid>
       <description>Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
-What is Ansible? Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
+What is Ansible? ANSIBLE IS COOL Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
 Overview:
 This lesson is your starting point for learning Ansible.</description>
     </item>
