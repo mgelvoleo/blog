@@ -53,4 +53,3 @@ This lesson is your starting point for learning Ansible. We’ll guide you throu
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bW6ebGABbZ8?si=lU03AAmdp4pemkAJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-![My Image](/images/logoITLearnTV.png)
