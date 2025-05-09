@@ -72,7 +72,7 @@ What You’ll Learn:
       
       <guid>https://mgelvoleo.github.io/blog/ansible/ansible-101-getting-started/</guid>
       <description>Ansible is a powerful automation tool that simplifies the management of systems and applications. This guide will help you get started with Ansible, covering installation, basic concepts, and your first playbook.
-What is Ansible? ANSIBLE and HUGO IS SUPER COOL Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.</description>
+What is Ansible? ANSIBLE and HUGO IS SUPER SUPER COOL Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.</description>
     </item>
     
     <item>

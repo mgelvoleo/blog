@@ -15,10 +15,9 @@ Ansible is a powerful automation tool that simplifies the management of systems 
 
 ## What is Ansible?
 
-## ANSIBLE and HUGO IS SUPER COOL
+## ANSIBLE and HUGO IS SUPER SUPER COOL
 
-
-
+![My Image](/images/logoITLearnTV.png)
 
 Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration. It uses a simple, human-readable language (YAML) to define automation tasks.
 
