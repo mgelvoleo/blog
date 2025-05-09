@@ -54,5 +54,3 @@ This lesson is your starting point for learning Ansible. We’ll guide you throu
 
 
 
-
-![My Image](/images/logoITLearnTV 2.png)
